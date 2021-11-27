@@ -3,6 +3,16 @@
 Esta aplicación tiene por objetivo la carga de mascotas. Se compone de un frontend en React donde se podran cargar los datos, y un backend realizado en Strapi que contiene la lógica de negocio y el preprocesamiento de datos antes de almacenarlos en la base de datos.
 
 
+# Install
+
+Ejecutar
+
+``` 
+npm install
+```
+
+ en el directorio raiz
+
 ## Base de datos
 
 Para levantar una base de datos en postgress correr el siguiente comando de docker(requiere [instalación](https://docs.docker.com/engine/install/) previa ):
