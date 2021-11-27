@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mascotas",
+  "info": {
+    "name": "mascotas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "sexo": {
+      "type": "enumeration",
+      "enum": [
+        "macho",
+        "hembra"
+      ],
+      "required": true
+    },
+    "fecha_nacimiento": {
+      "type": "date"
+    },
+    "es_edad_exacta": {
+      "type": "boolean",
+      "required": true
+    },
+    "raza": {
+      "type": "string",
+      "required": true
+    },
+    "edad_aproximada": {
+      "type": "string"
+    }
+  }
+}
